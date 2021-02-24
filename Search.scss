@@ -1,3 +1,35 @@
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        h1,ol,ul,li,button{margin:0;padding:0}
+        button{border:none;background:none}
+        body{background: #fff}
+        body,input,button{font-size:14px;font-family:arial,sans-serif;color:#222}
+        a{color:black;text-decoration:none}
+        a:hover,a:active{text-decoration:underline}
+        a:visited{color:#609}html,body{min-width:400px}
+        body,html{height:100%;margin:0;padding:0}
+        .googleim {
+            align-self:center;
+            padding : 20px;
 
+        }
+        footer {
+            background:gray;
+            height: 300px;
+
+        }
+        .space {
+            height: auto;
+
+        }
+        .footerone {
+            text-decoration: gray;
+            margin: 20px;
+            border-bottom: 2px darkgray;
+            
+        }
+        .footertwo {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            height: 100px;
+        }
