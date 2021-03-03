@@ -1,35 +1,44 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    background:#fff;
+}
+  
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: purple;
+}
 
-        h1,ol,ul,li,button{margin:0;padding:0}
-        button{border:none;background:none}
-        body{background: #fff}
-        body,input,button{font-size:14px;font-family:arial,sans-serif;color:#222}
-        a{color:black;text-decoration:none}
-        a:hover,a:active{text-decoration:underline}
-        a:visited{color:#609}html,body{min-width:400px}
-        body,html{height:100%;margin:0;padding:0}
-        .googleim {
-            align-self:center;
-            padding : 20px;
-
+@media (min-height:651px) {
+    .footer{
+        background-color: lightgray;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height: 250px;
+    }
+    .space {
+        height: 250px;
         }
-        footer {
-            background:gray;
-            height: 300px;
-
-        }
-        .space {
-            height: auto;
-
-        }
-        .footerone {
-            text-decoration: gray;
-            margin: 20px;
-            border-bottom: 2px darkgray;
-            
-        }
-        .footertwo {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-            height: 100px;
-        }
+    }
+  
+@media (max-height: 650px) {
+    .footer{
+        background-color: lightgray;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height: auto;
+    }
+    .space {
+    height: auto;
+    }
+}
