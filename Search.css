@@ -4,6 +4,27 @@ body {
   background: #fff;
 }
 
+#rightalign {
+  float: right;
+  padding-left: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#leftalign {
+  float: left;
+  padding-left: 10px;
+}
+
+#signinbuttom {
+  float: right;
+  padding-left: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -17,15 +38,40 @@ a:visited {
   color: purple;
 }
 
+img {
+  padding: 100px;
+}
+
+#height {
+  height: auto;
+}
+
+#link {
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#center {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 @media (min-height: 651px) {
   .footer {
     background-color: lightgray;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    height: auto;
   }
-  .space {
+  .footerone {
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .footerone .space {
     height: 250px;
   }
 }
@@ -37,6 +83,13 @@ a:visited {
     bottom: 0;
     width: 100%;
     height: auto;
+  }
+  .footerone {
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom: lightgray;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .space {
     height: auto;
